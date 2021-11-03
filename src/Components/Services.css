@@ -1,0 +1,36 @@
+.bor {
+  border: 1px solid black;
+}
+.eachdiv {
+  background-color: #e4ebf2;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: 0.3s;
+  border-radius: 20px;
+}
+
+.eachcard {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+}
+.eachdiv:hover {
+  transition: 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: translateY(-10px);
+}
+.eachone {
+  margin: 20px 10px;
+  max-width: 360px;
+}
+
+.thediv {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.single {
+  width: 360px;
+}

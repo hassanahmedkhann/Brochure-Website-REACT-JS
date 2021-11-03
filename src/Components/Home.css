@@ -1,0 +1,65 @@
+#header {
+  width: 100%;
+  margin-top: 40px;
+}
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: rgb(56, 12, 12);
+}
+
+.brand-name {
+  border: 0.5px solid;
+  border-radius: 20px;
+  color: white;
+  font-size: 30px;
+  transition: 0.2s;
+  background-color: #3498db;
+}
+
+#header h2 {
+  color: #484848;
+  font-size: 24px;
+}
+.back {
+  background-color: white;
+}
+.btn-get-started {
+  font-weight: 500;
+  font-size: 20x;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.1s;
+  color: #254e69;
+  border: 2px solid #3498db;
+  text-decoration: none;
+  transition: 0.7s;
+}
+.btn-get-started:hover {
+  background: #3498db;
+  color: white;
+  transition: 0.5s;
+}
+
+.animated {
+  animation: roll 1s infinite linear;
+  position: relative;
+}
+@keyframes roll {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.thediv {
+  overflow: hidden;
+}
+.thediv::-webkit-scrollbar {
+  display: none;
+}

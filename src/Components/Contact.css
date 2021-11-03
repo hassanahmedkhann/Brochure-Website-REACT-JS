@@ -1,0 +1,54 @@
+.form {
+  position: relative;
+  color: black;
+  font-family: "Mulish";
+}
+
+.main:hover {
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+  transform: translateY(-10px);
+  transition: 0.3s;
+}
+
+@media (max-width: 400px) {
+  .picture {
+    display: none;
+  }
+}
+.maincontact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.images {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  position: relative;
+  height: max-content;
+  border-radius: 20px;
+  margin: 30px;
+  background-color: #e4ebf2;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: 0.3s;
+  max-width: 700px;
+  flex-grow: 1;
+}
+.picture {
+  height: 80vh;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 100px;
+  animation: updown 1s infinite alternate ease-in-out;
+}
+
+@keyframes updown {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
